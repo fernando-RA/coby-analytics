@@ -16,6 +16,10 @@ const nextConfig = {
         source: '/KeepBored',
         destination: '/KeepBored.html',
       },
+      {
+        source: '/BluesNFT',
+        destination: '/BluesNFT.html',
+      },
     ]
   },
   async redirects() {
