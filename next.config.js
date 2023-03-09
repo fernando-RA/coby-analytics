@@ -15,7 +15,17 @@ const nextConfig = {
       {
         source: '/KeepBored',
         destination: '/KeepBored.html',
-      }
+      },
+    ]
+  },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: 'https://coby.studio/',
+        permanent: false,
+        basePath: false
+      },
     ]
   },
   experimental: {
